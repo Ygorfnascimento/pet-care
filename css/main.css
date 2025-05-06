@@ -1,17 +1,22 @@
 /* Reset da página */
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/* HEADER - Menu*/
+/* HEADER - Menu */
 .menu {
     background-color: #ff9a6c;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 24px 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* O header ocupa 100% da tela */
+    z-index: 100; /* Coloca o header acima de outros elementos */
 }
 
 .menu nav a {
@@ -19,15 +24,6 @@
     font-weight: 600;
     padding: 20px;
     text-decoration: none;
-}
-
-/* Fixar Menu - Topo */
-.menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; /* O header ocupa 100% da tela */
-    z-index: 100; /* coloca o header acima de outros elementos */
 }
 
 /* BODY - Main */
@@ -55,6 +51,7 @@ h1, h2 {
     margin-bottom: 64px;
 }
 
+/* Botões */
 .botao {
     background-color: #ff9a6c;
     border-radius: 8px;
@@ -68,13 +65,63 @@ h1, h2 {
     color: #ff7258;
     padding: 16px 32px;
     text-underline-offset: 4px;
-
 }
 
+/* Elemento Absoluto (para fundo) */
 .absolute {
     position: absolute;
     bottom: -20px;
     left: 0;
     width: 100%;
     z-index: -10;
+}
+
+/* Seção Clínica */
+#clinica {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+}
+
+.clinica-titulo {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: -113px;
+    margin-bottom: 35px;
+}
+
+.paragrafo-clinica {
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+/* Navegação da Clínica */
+.clinica-nav {
+    padding-left: 28px;
+}
+
+li {
+    padding: 6px;
+}
+
+/* Botões na seção Clínica */
+.botao-clinica {
+    background-color: #ff9a6c;
+    border-radius: 8px;
+    color: #fff;
+    padding: 19px 30px;
+    text-decoration: none;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.botao-transparente-clinica {
+    background-color: transparent;
+    color: #ff7258;
+    padding: 19px 30px;
+    text-underline-offset: 4px;
+    margin-top: 16px;
+    display: inline-block;
 }
