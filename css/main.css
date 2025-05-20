@@ -44,6 +44,7 @@ h1, h2 {
     font-size: 32px;
     font-weight: 600;
     margin-top: 32px;
+    margin-bottom: 20px;
 }
 
 .paragrafo {
@@ -88,8 +89,8 @@ h1, h2 {
 .clinica-titulo {
     font-size: 32px;
     font-weight: 600;
-    margin-top: -113px;
-    margin-bottom: 35px;
+    margin-top: -53px;
+    margin-bottom: 25px;
 }
 
 .paragrafo-clinica {
@@ -131,7 +132,7 @@ li {
     font-size: 32px;
     margin-top: 10px;
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 .img-farmacia {
@@ -141,13 +142,13 @@ li {
 }
 
 .paragrafo-farmacia {
-    margin-bottom: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     text-align: center;
     text-align: justify;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 /* Seção Dúvidas */
