@@ -22,7 +22,7 @@
 .menu nav a {
     color: #fff;
     font-weight: 600;
-    padding: 20px;
+    padding: 0px 20px;
     text-decoration: none;
 }
 
@@ -209,3 +209,64 @@ li {
     overflow: 24px;
     padding: 60px 24px 10px;
 }
+
+/*Seção Footer */
+.footer {
+    background-color: #ffc6bd;
+     line-height: 1.8;
+}
+
+.footer1 .link {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer1 li {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-paragrafo {
+    margin-top: 20px;
+}
+
+.highlight {
+    color: #fa6753;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.encerramento {
+    text-align: center;
+    background-color: #263138;
+    color: #fff;
+    padding: 10px;
+}
+
+.encontrar {
+    margin-bottom: 20px;
+}
+
+.footer3 a {
+    color: #ff725e;
+    text-decoration-line: none;
+    /* padding-left: 7px; */
+} 
