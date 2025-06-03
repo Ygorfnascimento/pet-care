@@ -192,64 +192,62 @@ ul{
     margin-top: 80px;
 }
 
-/* Seção Dúvidas */
+/* Config da Seção DÚVIDAS */
 #duvidas {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 64px;
     padding: 80px;
 }
-
-.duvidas-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 64px;
+ 
+ 
+.duvidas-title{
+    margin-bottom: 50px;
+    color: #000000;
+    font-size: 32px;
 }
-
-.duvidas-conteudo {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.duvida {
-    border: 1px solid #ff725e;
-    border-radius: 8px;
-    overflow: hidden; /* Garante cantos arredondados consistentes */
+ 
+.duvida{
     position: relative;
 }
-
-.duvida h3 {
-    background-color: #fff;
+ 
+.duvida h3{
+    border: 2px solid #9A5FF5;
+    border-radius: 15px;
     padding: 24px;
-    margin: 0;
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
+    color: #000000;
 }
-
-.duvida img {
+ 
+.duvida img{
     position: absolute;
     top: 32px;
     right: 24px;
 }
 
-.duvida .paragrafo {
-    padding: 24px;
-    margin: 0;
-    line-height: 1.5;
-
-    /* Eventos JS
+.duvidas-img{
+    border-radius: 25px;
+    margin-top: 27px;
+}
+ 
+.duvida .paragrafo{
+    border-right: 2px solid #9A5FF5;
+    border-bottom: 2px solid #9A5FF5;
+    border-left: 2px solid #9A5FF5;
+    border-radius: 0 0 8px 8px;
+    margin-top: -11px;
     padding: 10px 24px;
     opacity: 0;
     height: 0;
     overflow: hidden;
-    transition: .2s; */
+    transition: 0.3s;
 }
-
-.duvida.ativa .paragrafo {
+ 
+.duvida.ativa .paragrafo{
     opacity: 1;
     height: fit-content;
     overflow: 24px;
-    padding: 60px 24px 10px;
+    padding: 24px 24px 10px 24px;
 }
 
 /*Seção Footer */
