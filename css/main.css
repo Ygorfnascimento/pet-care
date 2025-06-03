@@ -142,16 +142,8 @@ h1 strong{
     margin-bottom: 100px;
 }
 
-<<<<<<< HEAD
 #clinica img{
     margin-top: 50px;
-=======
-.clinica-titulo {
-    font-size: 32px;
-    font-weight: 600;
-    margin-top: -53px;
-    margin-bottom: 25px;
->>>>>>> ae768d57f212ce12345027f8c23cc903998b25dc
 }
 
 .titulo-clinica{
@@ -168,27 +160,36 @@ ul{
 }
 
 /* Seção Farmácia */
-.titulo-farmacia {
-    font-size: 32px;
-    margin-top: 10px;
-    text-align: center;
-    margin-bottom: 80px;
+#farmacia {
+  background-color: #FFD9D9;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-margin-top: -40px;
+  margin-bottom: 50px;
 }
 
-.img-farmacia {
-    display: flex;
-    justify-content: center; 
-    align-items: center;  
+ 
+/* Container do conteúdo */
+.farmacia-container {
+  background-color: #F5F1EB;
+  border-radius: 24px;
+  max-width: 1000px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-
-.paragrafo-farmacia {
-    margin-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
-    text-align: center;
-    text-align: justify;
-    margin-top: 60px;
+ 
+.img-farmacia{
+    margin-top: 100px;
+    border-radius: 25px;
+}
+ 
+.paragrafo-farmacia{
+    margin-top: 80px;
 }
 
 /* Seção Dúvidas */
