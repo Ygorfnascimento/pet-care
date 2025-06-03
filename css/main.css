@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -133,55 +132,39 @@ h1 strong{
     z-index: -10;
 }
 
-
-/* Seção Clínica */
+/* Config da Seção CLÍNICA */
 #clinica {
     display: flex;
     align-items: center;
     gap: 32px;
     padding: 80px 80px 24px 80px;
     position: relative;
+    margin-bottom: 100px;
 }
 
+<<<<<<< HEAD
+#clinica img{
+    margin-top: 50px;
+=======
 .clinica-titulo {
     font-size: 32px;
     font-weight: 600;
     margin-top: -53px;
     margin-bottom: 25px;
+>>>>>>> ae768d57f212ce12345027f8c23cc903998b25dc
 }
 
-.paragrafo-clinica {
-    line-height: 150%;
-    margin-bottom: 20px;
-}
-
-/* Navegação da Clínica */
-.clinica-nav {
-    padding-left: 28px;
+.titulo-clinica{
+    margin-top: 50px;
 }
 
 li {
-    padding: 6px;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
 
-/* Botões na seção Clínica */
-.botao-clinica {
-    background-color: #ff9a6c;
-    border-radius: 8px;
-    color: #fff;
-    padding: 19px 30px;
-    text-decoration: none;
-    margin-top: 25px;
-    display: inline-block;
-}
-
-.botao-transparente-clinica {
-    background-color: transparent;
-    color: #ff7258;
-    padding: 19px 30px;
-    text-underline-offset: 4px;
-    margin-top: 16px;
-    display: inline-block;
+ul{
+    margin-bottom: 80px;
 }
 
 /* Seção Farmácia */
