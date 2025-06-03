@@ -37,6 +37,7 @@ body {
     color: #9A5FF5;
     font-weight: 600;
     padding: 5px 10px;
+    padding: 0px 20px;
     text-decoration: none;
     border-radius: 30px;
     transition: background-color 0.3s, color 0.3s;
@@ -72,6 +73,7 @@ h1 {
     font-size: 32px;
     font-weight: 900px;
     margin-top: 32px;
+    margin-bottom: 20px;
 }
 
 h1 strong{
@@ -140,8 +142,16 @@ h1 strong{
     margin-bottom: 100px;
 }
 
+<<<<<<< HEAD
 #clinica img{
     margin-top: 50px;
+=======
+.clinica-titulo {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: -53px;
+    margin-bottom: 25px;
+>>>>>>> ae768d57f212ce12345027f8c23cc903998b25dc
 }
 
 .titulo-clinica{
@@ -162,7 +172,7 @@ ul{
     font-size: 32px;
     margin-top: 10px;
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 .img-farmacia {
@@ -172,13 +182,13 @@ ul{
 }
 
 .paragrafo-farmacia {
-    margin-bottom: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     text-align: center;
     text-align: justify;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 /* Seção Dúvidas */
@@ -240,3 +250,64 @@ ul{
     overflow: 24px;
     padding: 60px 24px 10px;
 }
+
+/*Seção Footer */
+.footer {
+    background-color: #ffc6bd;
+     line-height: 1.8;
+}
+
+.footer1 .link {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer1 li {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-paragrafo {
+    margin-top: 20px;
+}
+
+.highlight {
+    color: #fa6753;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.encerramento {
+    text-align: center;
+    background-color: #263138;
+    color: #fff;
+    padding: 10px;
+}
+
+.encontrar {
+    margin-bottom: 20px;
+}
+
+.footer3 a {
+    color: #ff725e;
+    text-decoration-line: none;
+    /* padding-left: 7px; */
+} 
