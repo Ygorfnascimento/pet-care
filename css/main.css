@@ -1,17 +1,54 @@
-/* Reset da página */
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  scroll-padding-top: 130px; /* Ajusta para a altura do seu menu fixo */
+}
+
+/* Reset do Browser */
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+body {
+    color: #263138;
+    background-color: #F5F1EB;
+    font-family: "Roboto", sans-serif;
+
 }
 
 /* HEADER - Menu */
-.menu {
-    background-color: #ff9a6c;
+.menu{
+    background-color: #F5F1EB;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 24px 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.menu nav a {
+    color: #9A5FF5;
+    font-weight: 600;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu nav a:hover {
+    background-color: #9A5FF5;
+    color: #FFF;
+}
+/* Fixar Menu - Topo */
+.menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -19,55 +56,73 @@
     z-index: 100; /* Coloca o header acima de outros elementos */
 }
 
-.menu nav a {
-    color: #fff;
-    font-weight: 600;
-    padding: 20px;
-    text-decoration: none;
-}
 
-/* BODY - Main */
-body {
-    color: #263138;
-}
+/* Config da Seção INÍCIO */
 
-/* Configuração da seção início */
 #inicio {
     display: flex;
     align-items: center;
     gap: 32px;
     padding: 80px 80px 24px 80px;
     position: relative;
+    padding-left: 0px;
+    margin-top:150px;
 }
 
-h1, h2 {
+h1 {
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 900px;
     margin-top: 32px;
+}
+
+h1 strong{
+    color: #9A5FF5;
+}
+
+#inicio h1{
+    font-size: 45px;
 }
 
 .paragrafo {
     line-height: 150%;
     margin-bottom: 64px;
+    margin-top: 50px;
 }
 
-/* Botões */
 .botao {
-    background-color: #ff9a6c;
-    border-radius: 8px;
-    color: #fff;
+    background-color: #9A5FF5;
+    border-radius: 80px;
+    color: #FFF;
     padding: 16px 32px;
     text-decoration: none;
 }
 
+
+.botao:hover{
+    background-color: #6b28cf;
+    transition: 0.5s;  
+}
+
 .botao-transparente {
     background-color: transparent;
-    color: #ff7258;
+    color: #9A5FF5;
     padding: 16px 32px;
     text-underline-offset: 4px;
 }
 
-/* Elemento Absoluto (para fundo) */
+.botao-transparente:hover{
+    color: #6b28cf;
+    transition: 0.5s;
+}
+
+
+.img{
+    margin-top: 125px;
+    margin-bottom: 125px;
+
+}
+
+
 .absolute {
     position: absolute;
     bottom: -20px;
